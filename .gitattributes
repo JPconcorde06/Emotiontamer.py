@@ -1,2 +1,35 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Emotion.py (BBVAInterview.py)
+# A simple program to simulate a job interview at BBVA.
+# Author: Juan Pablo Trujillo Neira
+
+# Step 1: Ask for the candidate’s name
+name = input("Welcome to BBVA! What is your name? ")
+print("Hello " + name + ", thank you for coming to this interview.")
+
+# Step 2: Introduce the program (interviewer)
+print("\nI am the virtual BBVA interviewer.")
+print("I will ask you a few basic questions to get to know you better.\n")
+
+# Step 3: Ask interview questions
+q1 = input("Question 1: Why would you like to work at BBVA? ")
+print("\nThank you for your answer: " + q1)
+
+q2 = input("\nQuestion 2: What is one of your strengths? ")
+print("\nThat is a great strength: " + q2)
+
+q3 = input("\nQuestion 3: What is one area you would like to improve? ")
+print("\nThank you for being honest about: " + q3)
+
+q4 = input("\nQuestion 4: Do you prefer working in a team or individually? ")
+print("\nInteresting! You prefer: " + q4)
+
+# Step 4: Wrap up
+print("\nThis is the end of our interview, " + name + ".")
+print("We appreciate your time and interest in joining BBVA.")
+print("Our HR team will review your answers and contact you soon.\n")
+
+# Step 5: final message
+print("Good luck, " + name + "! We hope to see you at BBVA!")
+
